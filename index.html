@@ -36,34 +36,40 @@
   <body>
     <div class="wrapper top">
       <header>
-        <div class="inner">
-          <div class="menu-trigger">
-            <img src="/images/common/menu.svg" alt="メニューアイコン">
-          </div>
-          <nav class="pc">
-            <h1 class="logo"><img src="/images/common/logo_s.svg" alt="ロゴ画像"></h1>
-            <ul>
-              <li><a href="">エリアプラットフォームメンバーの紹介</a></li>
-              <li><a href="">活動区域について</a></li>
-              <li><a href="">お知らせ</a></li>
-              <li><a href="">お問い合わせ</a></li>
-            </ul>
-          </nav>
-          <nav class="sp">
-            <ul>
-              <li><a href="">エリアプラットフォームメンバーの紹介</a></li>
-              <li><a href="">活動区域について</a></li>
-              <li><a href="">お知らせ</a></li>
-              <li><a href="">お問い合わせ</a></li>
-            </ul>
-          </nav>
+        <div class="menu-trigger">
+          <a class="sp_logo" href="/"><img src="/images/common/logo.svg" alt="ロゴ画像"></a>
+          <span></span>
         </div>
+        <nav class="pc">
+          <h1 class="logo">
+            <a href="/"><img src="/images/common/logo_s.svg" alt="ロゴ画像"></a>
+          </h1>
+          <ul>
+            <li><a href="">エリアプラットフォームメンバーの紹介</a></li>
+            <li><a href="">活動区域について</a></li>
+            <li><a href="">お知らせ</a></li>
+            <li><a href="">お問い合わせ</a></li>
+          </ul>
+        </nav>
+        <nav class="sp">
+          <ul>
+            <li><a href="">エリアプラットフォームメンバーの紹介</a></li>
+            <li><a href="">活動区域について</a></li>
+            <li><a href="">お知らせ</a></li>
+            <li><a href="">お問い合わせ</a></li>
+          </ul>
+          <img src="/images/common/logo.svg" alt="ロゴ画像">
+          <p>© All Rights Reserved. Eripura</p>
+        </nav>
       </header>
       <div class="mv">
         <div class="scroll">
           <span>SCROLL</span>
         </div>
-        <img src="/images/top/mv.png" alt="メインビュー画像">
+        <picture>
+          <source srcset="/images/top/mv_sp.png" media="(max-width: 768px)">
+          <img src="/images/top/mv.png" alt="メインビュー画像">
+        </picture>
         <div class="list">
           <img src="/images/common/logo.svg" alt="ロゴ画像">
           <ul>
@@ -75,8 +81,6 @@
         </div>
       </div>
       <div class="about">
-        <img src="/images/top/top_about_img1.png" alt="子供達の画像">
-        <img src="/images/top/top_about_img2.png" alt="お神輿の画像">
         <div class="text_wrap">
           <p class="title">
             エリアプラット<br>
@@ -88,7 +92,12 @@
             年齢・性別・国籍・障がいの有無など、様々なバックボーンや価値観の違いを受け入れ、誰もが安心して暮らせる長く住み続けたいまちを目指し、様々なプロジェクトを実施しています。
           </p>
         </div>
-        <p class="loop_text">SUKAGAWA CITY</p>
+        <picture>
+          <source srcset="/images/top/top_about_img_sp.png" media="(max-width: 768px)">
+          <img src="/images/top/top_about_img1.png" alt="子供達の画像">
+        </picture>
+        <img src="/images/top/top_about_img2.png" alt="お神輿の画像">
+        <p class="loop_text">SUKAGAWA <br class="sp">CITY</p>
       </div>
       <div class="link">
         <img src="/images/top/michisirube_logo.png" alt="みちしるべロゴ画像">
@@ -116,7 +125,7 @@
                   <img src="/images/top/news_img.png" alt="ニュースの画像">
                   <div class="text_wrap">
                     <p class="deta">2024.06.02<span>お知らせ</span></p>
-                    <p class="title">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
+                    <p class="title">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
                   </div>
                 </a>
               </li>
@@ -125,7 +134,7 @@
                   <img src="/images/top/news_img.png" alt="ニュースの画像">
                   <div class="text_wrap">
                     <p class="deta">2024.06.02<span>お知らせ</span></p>
-                    <p class="title">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
+                    <p class="title">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
                   </div>
                 </a>
               </li>
@@ -134,7 +143,7 @@
                   <img src="/images/top/news_img.png" alt="ニュースの画像">
                   <div class="text_wrap">
                     <p class="deta">2024.06.02<span>お知らせ</span></p>
-                    <p class="title">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
+                    <p class="title">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
                   </div>
                 </a>
               </li>
@@ -143,12 +152,13 @@
                   <img src="/images/top/news_img.png" alt="ニュースの画像">
                   <div class="text_wrap">
                     <p class="deta">2024.06.02<span>お知らせ</span></p>
-                    <p class="title">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
+                    <p class="title">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
                   </div>
                 </a>
               </li>
             </ul>
           </div>
+          <a class="sp_btn" href="">詳しく見る</a>
         </div>
         
       </div>
